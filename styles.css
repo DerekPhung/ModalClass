@@ -1,0 +1,134 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#bigBox{
+    border: 3px solid black;
+    height: 900px;
+    width: 900px;
+    margin: auto;
+}
+
+.card{
+    border: 1px solid black;
+    border-top: 3px solid rgb(0, 129, 129);
+    height: 150px;
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.card:hover{
+    background-color: rgb(42, 42, 54);
+    animation: transform 1s 1;
+    height: 180px;
+    width: 530px;
+}
+
+.age{
+    /* border: 3px solid green; */
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 30px;
+    line-height: 80px;
+    display: inline-block;
+    text-align: center;
+    background-color: aquamarine;
+    margin-left: 20px;
+    color: blueviolet;
+}
+
+.place{
+    /* border: 3px solid blue; */
+    height: 40px;
+    width: 60px;
+    font-size: 30px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+    text-align: center;
+    color: blueviolet;
+}
+
+.name{
+    /* border: 3px solid aquamarine; */
+    height: 20px;
+    width: 50px;
+    margin: auto;
+    display: inline-block;
+    margin-bottom: 40px;
+    text-align: center;
+    color: blueviolet;
+}
+
+@keyframes transform{
+    0%{
+        height: 150px;
+        width: 500px;
+    }
+
+    100%{
+        height: 180px;
+        width: 530px;
+    }
+}
+
+#form{
+    border: 3px solid black;
+    height: 600px;
+    width: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+
+    display: grid;
+    place-content: center;
+}
+
+input{
+    display: block;
+}
+
+#btn{
+    margin-left: 50%;
+    width: 5%;
+}
+
+
+#formCenterBox{
+
+    /* border: 1px solid red; */
+
+    width: 300px;
+    height: 200px;
+}
+
+.lbl{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    float: left;
+    text-align: right;
+    /* border: 1px solid blue; */
+    width: 70px;
+}
+.input{
+    float: right;
+}
+
+.constraint{
+    /* border: 1px solid green; */
+    width: 250px;
+    height: 30px;
+    display: block;
+}
+#works{
+    width: 250px;
+    display: grid;
+    place-content: center;
+}
+#sbtn{
+    margin: auto;
+}
